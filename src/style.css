@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #333333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+    font-style: italic;
+    color: aliceblue;
+}
+
+label {
+    color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h2 {
+    color: aliceblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    position: relative;
+    left: 70px;
+    top: 50px;
+}
+
+.in {
+    border-radius: 10px;
+    box-shadow: inset;
+    position: relative;
+    left: 10px;
+}
+
+.click {
+    background-color: #4CAF50;
+    /* Green */
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    position: relative;
+    left: 90px;
+    top: 30px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 5px;
+}
+
+.click:hover {
+    background-color: #008CBA;
+    /* Blue */
+    color: white;
+    transform: scale(1.1);
+}
